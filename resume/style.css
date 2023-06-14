@@ -25,15 +25,26 @@ body{
   margin: 0 auto;
 }
 /*My Title*/
-strong{
+#title{
   text-transform: uppercase;
   font-size: 1.5em;
   color: #33485e;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .menu{
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+.menu li{
+  display: inline;
 }
 /*Section Headers (education, exeperience, skills)*/
 .sectionheader{
@@ -49,6 +60,13 @@ strong{
   width: 70%;
   min-width: 300px;
 }
+#degrees{
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 /*Job Titles/Positions */
 .jobtitle{
   font-weight:600;
@@ -79,4 +97,18 @@ strong{
 /* Lists (Contacts, Education, and Skills)*/
 li{
   font-size: 1em;
+}
+
+#do{
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
 }
