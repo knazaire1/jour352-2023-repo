@@ -1,0 +1,107 @@
+#navbar{
+  font-family:
+  "robotocondensed", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  background-color: #F0E6EF;
+  color: black;
+
+}
+#navbar li {
+  display: inline-block;
+  padding-right: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#photobanner{
+
+}
+
+ p{
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 13pt;
+  padding-left:400px;
+  padding-right:400px;
+  line-height: 1.75;
+  text-align: left;
+
+}
+#headline{
+  text-align:center;
+  font-family: "Diphylleia";
+  font-size: 2em;
+  padding-bottom:0;
+  margin-bottom: 0;
+  text-decoration: underline;
+  text-decoration-color: #593655;
+  line-height: 5px;
+
+}
+
+#pull{
+background-color: #F0E6EF;
+padding-left: 100px;
+padding-right: 130px;
+padding-top: 10px;
+display: inline-block;
+font-size: 1em;
+font-weight: bold;
+text-align: center;
+align-items: center;
+margin-left: 250px;
+margin-right: 250px;
+font-family:"Helvetica", arial, sans-serif;
+font-size: 16pt;
+line-height: 35px;
+
+
+}
+
+#image2{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#image3{
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+
+#tagline{
+  font-family: "Diphylleia";
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: bold;
+}
+
+#byline{
+  text-align: center;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  font-size: .85em;
+}
+
+.footer{
+  font-style:italic;
+  border-top: 1px;
+  font-weight: bold;
+
+}
+
+#spotify{
+  color: pink;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.subheading{
+  color: #593655;
+  font-weight: bold;
+  font-size: 18pt;
+  text-align: inherit;
+}
+
+#related{
+  font-size: 13pt;
+}
