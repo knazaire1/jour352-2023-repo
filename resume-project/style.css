@@ -2,6 +2,7 @@
 
 /* the whole page*/
 body{
+  padding-top: 100px;
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color:#444;
@@ -121,3 +122,15 @@ li{
   margin:0 auto;
   margin-bottom: 30px;
 }
+
+.navbar.center .navbar-collapse {
+    text-align: center;
+}
+.navbar.center .navbar-collapse .nav {
+    float: none;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.nav .navbar-nav{
+  color:#D44B33;
