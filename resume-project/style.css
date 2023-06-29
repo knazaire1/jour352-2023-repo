@@ -20,12 +20,7 @@ padding-bottom: 50px;
   padding-top: 100px;
 }
 
-#aboutme{
-  font-size: 1.5em;
-  text-align: center;
-  padding-top: 0;
-  margin-left: 50px;
-}
+
 
 .menu{
   margin: 0;
@@ -54,6 +49,7 @@ padding-bottom: 50px;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 50px;
+  padding-top:50px;
 }
 
 #degrees{
@@ -61,7 +57,13 @@ padding-bottom: 50px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
-  font-size: 1.75em;
+  font-size: 2em;
+  text-align: center;
+  list-style-type: none;
+  background-color: #F6E1DB;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
 }
 
 /*Job Titles/Positions */
@@ -103,7 +105,15 @@ li{
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
-  font-size: 1.75em;
+  font-size: 2em;
+  text-align: center;
+  list-style-type: none;
+  background-color: #F6E1DB;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+
 }
 
 .top{
@@ -158,4 +168,22 @@ li{
 .logo{
   display: flex;
   justify-content: center;
+}
+
+.links{
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.menu li{
+  padding-left: 20px;
+}
+
+.banner{
+  margin-top:0px;
+  padding-top: 0px;
+}
+
+.scroll{
+  color: white;
 }
