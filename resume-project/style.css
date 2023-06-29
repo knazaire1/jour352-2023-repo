@@ -2,8 +2,7 @@
 
 /* the whole page*/
 body{
-  padding-top: 100px;
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: Helvetica;
   font-size: 1em;
   color:#444;
   font-weight:400;
@@ -17,34 +16,15 @@ padding-bottom: 50px;
 
 }
 
-/* Name Banner*/
-#name{
-  font-size: 3em;
-  text-transform: uppercase;
-  text-align: center;
-  color:#33485e;
-  /*border styling*/
-  border-style:solid;
-  border-color:#33485e;
-  border-width: 1px;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
+#headshot{
+  padding-top: 100px;
 }
-/*My Title*/
-#title{
-  text-transform: uppercase;
+
+#aboutme{
   font-size: 1.5em;
-  color: #33485e;
-  font-weight: 600;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  padding-top: 0;
+  margin-left: 50px;
 }
 
 .menu{
@@ -56,42 +36,50 @@ padding-bottom: 50px;
 .menu li{
   display: inline;
 }
-/*Section Headers (education, exeperience, skills)*/
+/*Section Headers (education, experience, skills)*/
 .sectionheader{
-  font-size: 1.5em;
-  text-transform: uppercase;
-  background-color:#33485e;
-  color:#fff;
+  font-size: 6em;
+  color:#CA462E;
   font-weight:400;
   margin-bottom: 10px;
   margin-top: 20px;
   margin-left: 0;
   margin-right: 0;
-  width: 70%;
   min-width: 300px;
+  text-align: center;
+  font-family: playfair display;
+  font-style: italic;
+  font-weight: bolder;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 50px;
 }
+
 #degrees{
   margin-top: 5px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  font-size: 1.75em;
 }
 
 /*Job Titles/Positions */
 .jobtitle{
   font-weight:600;
-  font-size: 1.5em;
+  font-size: 3em;
 }
 /* Companies and Organizations*/
 .organization{
   font-weight: 400;
-  font-size: 1.25em;
+  font-size: 2.5em;
+  font-family: Helvetica;
 }
 /* Dates of Jobs */
 .date{
   font-weight: 400;
   font-style: italic;
-  font-size: 1em;
+  font-size: 2em;
   margin-top: 2px;
   margin-left: 0;
   margin-right: 0;
@@ -102,6 +90,7 @@ padding-bottom: 50px;
   margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
+  font-size: 1.75em;
 }
 
 /* Lists (Contacts, Education, and Skills)*/
@@ -114,6 +103,7 @@ li{
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  font-size: 1.75em;
 }
 
 .top{
@@ -134,3 +124,38 @@ li{
 
 .nav .navbar-nav{
   color:#D44B33;
+
+}
+
+.carousel-control-prev-icon {
+  background-image: none;
+  color: red;
+}
+
+.bioinfo{
+  font-size: 2em;
+  width: 500px;
+}
+
+.bio{
+  display: grid;
+ align-items: center;
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 30px;
+ justify-content: center;
+
+
+
+}
+.jobsection{
+  background-color:#F6E1DB;
+  padding: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
