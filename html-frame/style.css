@@ -35,6 +35,9 @@ figcaption{
   margin-left: 250px;
   font-variant: 'Montserrat', sans-serif;
   color: #8e8e8e;
+  font-size: .8em;
+  padding-bottom: 50px;
+  max-width: 800px;
 }
 
 .column {
@@ -63,3 +66,35 @@ figcaption{
     width: 700px;
 
   }
+
+.headerimage{
+  max-width: 100%;
+}
+
+.infographic{
+  display: block;
+  margin-left: auto;
+  padding-left: 60px;
+  padding-bottom: 50px;
+}
+
+.refugees{
+  width: 1200px;
+  padding-right: 280px;
+
+
+}
+
+.chart{
+  padding-left: 150px;
+  padding-bottom: 50px;
+}
+
+.note p{
+  font-style: italic;
+  color: gray;
+}
+
+.wash{
+ padding-left: 60px;
+}
