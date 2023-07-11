@@ -14,6 +14,13 @@
   text-transform: uppercase;
   font-family:'Montserrat', sans-serif;
   text-align: center;
+  border-bottom: 1px;
+  border-color: black;
+  border-style: double;
+  border-top-color: white;
+  border-left-color : white;
+  border-right-color: white;
+  marg
 }
 
 p{
@@ -97,4 +104,27 @@ figcaption{
 
 .wash{
  padding-left: 60px;
+}
+
+.map{
+  padding-left: 60px;
+  padding-bottom: 30px;
+}
+
+.blurrypic{
+padding-left: 60px;
+padding-bottom: 50px;
+
+}
+
+.pquote{
+font-weight: bolder;
+font-size: 1.75em;
+width: 100%;
+padding-left: 270px;
+
+}
+
+.headerimage{
+  padding-left:40px;
 }
